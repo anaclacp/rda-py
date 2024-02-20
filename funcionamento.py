@@ -8,6 +8,7 @@ from time import sleep
 # o seu whatsapp precisa estar logado no google
 # precisa colocar o local de onde está localizada a tabela excel na linha 15
 # para editar o texto exibido é só escrever dentro das aspas simples na linha 23
+# esse código é usado no macOS, para funcionar no windows é só mudar a linha 33 para keyboard.press_and_release('ctrl + w')
 
 webbrowser.open('https://web.whatsapp.com/')
 sleep(30)
